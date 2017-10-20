@@ -1,8 +1,5 @@
 import numpy as np
 
-
-
-
 #w= 20   # 量子点宽度,像素个数
 #v = 200 # 速度 m/s
 #h = []  # 高度 m

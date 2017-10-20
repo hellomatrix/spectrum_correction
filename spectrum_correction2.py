@@ -191,7 +191,6 @@ def fit_normal(r_spectrum_l1,r_spectrum_l2,spectrum_range,figs,k=1):
     x_data_samples = x_data_gold[0:(-k)] # the x data for fitting
 
     # print(x_data)
-
     y_data = [] # the y data for fitting
     para=[]
     y_fit = []

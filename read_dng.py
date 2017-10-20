@@ -5,26 +5,29 @@ import matplotlib.pyplot as plt
 import cv2
 import os
 
-testName = 'test'
-path ='./'+testName
-filelist = os.listdir(path)
-pngdir = os.path.join(path, testName + '_pngfile')
-if not os.path.exists(pngdir):
-    os.mkdir(pngdir)
 
-for filename in filelist:
-    filepath = os.path.join(path, filename)
-    if os.path.isdir(filepath):
-        # dirlist(filepath, allfile)
-        pass
-    else:
-        raw = rawpy.imread(filepath)
-        img = raw.raw_image
-        pngName = os.path.join(pngdir, filename + '.png')
-        cv2.imwrite(pngName, img)
+def test_dng2png():
 
-        # allfile.append(filepath)
-        print(filename)
+    testName = 'test'
+    path ='./'+testName
+    filelist = os.listdir(path)
+    pngdir = os.path.join(path, testName + '_pngfile')
+    if not os.path.exists(pngdir):
+        os.mkdir(pngdir)
+
+    for filename in filelist:
+        filepath = os.path.join(path, filename)
+        if os.path.isdir(filepath):
+            # dirlist(filepath, allfile)
+            pass
+        else:
+            raw = rawpy.imread(filepath)
+            img = raw.raw_image
+            pngName = os.path.join(pngdir, filename + '.png')
+            cv2.imwrite(pngName, img)
+
+            # allfile.append(filepath)
+            print(filename)
 
 # def dirlist(path, allfile):
 #     filelist =  os.listdir(path)
@@ -120,7 +123,23 @@ for filename in filelist:
 # raw.raw_color(
 
 
-# if __name__ == '__main__':
-#
-#     allfile = []
-#     allfile = dirlist('./', allfile)
+if __name__ == '__main__':
+
+    # test_dng2png()
+
+
+    file = './DJI_0001.DNG'
+    im = cv2.imread('./test/test_pngfile/A012_C001_20171012_R00000.dng.png',cv2.CV_16U)
+
+    raw = rawpy.imread(file)
+    img = raw.raw_image
+
+    plt.figure()
+    plt.imshow(img, cmap='gray')
+    plt.show()
+
+    plt.waitforbuttonpress()
+
+
+    # allfile = []
+    # allfile = dirlist('./', allfile)

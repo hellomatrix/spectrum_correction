@@ -223,9 +223,6 @@ while (True):
         # plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
         # plt.show()
 
-
-
-
         # plt.figure(1)
         # ax1 = plt.subplot(141)
         # plt.sca(ax1)
