@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a96829e-f096-4a7f-b7d4-3457c205cfeb" name="Default" comment="">
+<<<<<<< Updated upstream
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trans.py" />
+>>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +30,11 @@
         <entry file="file://$PROJECT_DIR$/spectrum_correction2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
+<<<<<<< Updated upstream
               <caret line="255" column="21" lean-forward="false" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
+=======
+              <caret line="256" column="21" lean-forward="true" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="21" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#701#2361#0" expanded="false" />
               </folding>
@@ -34,12 +42,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simulation_spectrum_correction.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simulation_spectrum_correction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulation_spectrum_correction.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="1170">
               <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
               <folding />
+=======
+            <state relative-caret-position="-378">
+              <caret line="124" column="37" lean-forward="true" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#584#2916#0" expanded="false" />
+              </folding>
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trans.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1656">
+              <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +112,12 @@
         <option value="$PROJECT_DIR$/l1regls.py" />
         <option value="$PROJECT_DIR$/read_dng.py" />
         <option value="$PROJECT_DIR$/simulation_spectrum_correction.py" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/spectrum_correction.py" />
         <option value="$PROJECT_DIR$/transform.py" />
+=======
+        <option value="$PROJECT_DIR$/trans.py" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -94,11 +127,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="26" />
     <option name="width" value="1276" />
     <option name="height" value="776" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="114" />
+    <option name="y" value="99" />
+    <option name="width" value="1506" />
+    <option name="height" value="1046" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,7 +202,11 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.transform">
+=======
+  <component name="RunManager" selected="Python.trans">
+>>>>>>> Stashed changes
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,24 +456,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="stitch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="trans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< Updated upstream
       <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python3.6" />
+=======
+      <option name="SDK_HOME" value="" />
+>>>>>>> Stashed changes
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="spectrum_correction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stitch.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trans.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -463,6 +521,20 @@
         <item index="2" class="java.lang.String" itemvalue="Python.read_dng" />
         <item index="3" class="java.lang.String" itemvalue="Python.stitch" />
         <item index="4" class="java.lang.String" itemvalue="Python.dng2png" />
+=======
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.spectrum_correction" />
+      <item index="1" class="java.lang.String" itemvalue="Python.spectrum_correction2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simulation_spectrum_correction" />
+      <item index="3" class="java.lang.String" itemvalue="Python.trans" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.trans" />
+        <item index="1" class="java.lang.String" itemvalue="Python.simulation_spectrum_correction" />
+        <item index="2" class="java.lang.String" itemvalue="Python.spectrum_correction2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.spectrum_correction" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -490,8 +562,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+<<<<<<< Updated upstream
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17527087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17527087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.401507" sideWeight="0.51176095" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -551,7 +629,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
+<<<<<<< Updated upstream
       <option name="time" value="190" />
+=======
+      <option name="time" value="112" />
+>>>>>>> Stashed changes
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -561,6 +643,7 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/61464333/cv2/plot.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1019520635/cv2/cv2.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py" />
@@ -575,6 +658,61 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1019520635/numpy/random/mtrand.py" />
     <entry file="file://$PROJECT_DIR$/../my_opencv_project/lib/python3.6/site-packages/scipy/misc/pilutil.py" />
     <entry file="file://$PROJECT_DIR$/read_mat.py">
+=======
+    <entry file="file://$PROJECT_DIR$/spectrum_correction2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="240" column="11" lean-forward="false" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
+          <folding>
+            <element signature="e#701#2361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation_spectrum_correction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#584#2916#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectrum_correction2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="240" column="11" lean-forward="false" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
+          <folding>
+            <element signature="e#701#2361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation_spectrum_correction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="177" column="24" lean-forward="false" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#584#2916#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectrum_correction2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#701#2361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation_spectrum_correction.py">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
@@ -681,12 +819,75 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/dst.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/61464333/cv2/__init__.py" />
+=======
+    <entry file="file://$PROJECT_DIR$/grabcut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="152" column="27" lean-forward="false" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/61464333/cv2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../my_opencv_project/lib/python3.6/site-packages/scipy/io/matlab/mio.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/61464333/cv2/plot.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="3795" column="4" lean-forward="false" selection-start-line="3795" selection-start-column="4" selection-end-line="3795" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1019520635/numpy/core/umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="2347" column="4" lean-forward="false" selection-start-line="2347" selection-start-column="4" selection-end-line="2347" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="179" column="4" lean-forward="false" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_6.png" />
+    <entry file="file://$PROJECT_DIR$/grabcut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="264" column="13" lean-forward="true" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1897" column="0" lean-forward="false" selection-start-line="1897" selection-start-column="0" selection-end-line="1897" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/spectrum_correction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -708,10 +909,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1019520635/cv2/cv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="7782" column="56" lean-forward="false" selection-start-line="7782" selection-start-column="56" selection-end-line="7782" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spectrum_correction2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
+<<<<<<< Updated upstream
           <caret line="255" column="21" lean-forward="false" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
+=======
+          <caret line="256" column="21" lean-forward="true" selection-start-line="256" selection-start-column="21" selection-end-line="256" selection-end-column="21" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#701#2361#0" expanded="false" />
           </folding>
@@ -720,9 +933,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simulation_spectrum_correction.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="1170">
           <caret line="137" column="37" lean-forward="false" selection-start-line="137" selection-start-column="37" selection-end-line="137" selection-end-column="37" />
           <folding />
+=======
+        <state relative-caret-position="-378">
+          <caret line="124" column="37" lean-forward="true" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#584#2916#0" expanded="false" />
+          </folding>
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
