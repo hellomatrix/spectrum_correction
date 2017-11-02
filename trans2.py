@@ -9,7 +9,7 @@ path='../dj_1'
 path_pkl = '../dj_1_m/'
 path_bac='../dj_1_bac/'
 dirlist = os.listdir(path)
-dirlist.sort(key=lambda x:int(x[3:-6]))
+dirlist.sort()
 
 files = []
 for filename in dirlist:
@@ -20,11 +20,9 @@ for filename in dirlist:
     else:
         files.append(file)
 
-idx_file = 0
-img1 = cv2.imread(files[idx_file])
-print('image file name:',files[idx_file])
-img_gold = cv2.imread(files[len(files)//2])
-print('image gold name:',files[len(files)//2])
+idx_file = 19
+img1 = cv2.imread(path + '/' + 'dim%d_8.png' % idx_file)
+img_gold = cv2.imread(path + '/' + 'dim10_8.png')
 output = img1.copy()
 
 
@@ -38,13 +36,10 @@ rect2 = []
 
 font = 10
 
-gold_set = False
-other_set = False
-
 def onmouse(event,x,y,flags,param):
-    global img1,img_gold,flag,ix,iy,rect1,rect2,rectangle,font,gold_set,other_set
+    global img,img_gold,flag,ix,iy,rect1,rect2,rectangle,font
 
-    if flag == 0 and gold_set == False:
+    if flag == 0:
         color = RED
         if event == cv2.EVENT_LBUTTONDOWN:
             rectangle = True
@@ -56,25 +51,16 @@ def onmouse(event,x,y,flags,param):
                 # img = img2.copy()
                 # cv2.rectangle(img2,(ix,iy),(x,y),color,font)
                 # rect = (ix,iy,abs(ix-x),abs(iy-y))
-                #print((ix, iy, abs(ix - x), abs(iy - y)))
-                print('mouse moving')
+                print((ix, iy, abs(ix - x), abs(iy - y)))
 
         elif event == cv2.EVENT_LBUTTONUP:
             rectangle = False
-
             # rect_over = True
             cv2.rectangle(img_gold, (ix, iy), (x, y), color, font)
             rect1.append([ix,x,iy,y])
-
-            if len(rect1) == 3:
-                gold_set = True
-
             print(rect1)
-    elif flag == 1 and other_set == False:
+    elif flag == 1:
         color = BLUE
-        if len(rect2) == 3:
-            rect2 = []
-
         if event == cv2.EVENT_LBUTTONDOWN:
             rectangle = True
             ix, iy = x, y
@@ -85,18 +71,13 @@ def onmouse(event,x,y,flags,param):
                 # img = img2.copy()
                 # cv2.rectangle(img2,(ix,iy),(x,y),color,font)
                 # rect = (ix,iy,abs(ix-x),abs(iy-y))
-                #print((ix, iy, abs(ix - x), abs(iy - y)))
-                print('mouse moving')
+                print((ix, iy, abs(ix - x), abs(iy - y)))
 
         elif event == cv2.EVENT_LBUTTONUP:
             rectangle = False
             # rect_over = True
             cv2.rectangle(img1, (ix, iy), (x, y), color, font)
             rect2.append([ix,x,iy,y])
-
-            if len(rect2) == 3:
-                other_set = True
-
             print(rect2)
 
 
@@ -145,12 +126,7 @@ while(True):
             if idx_file == len(files)//2:
                 idx_file = idx_file + 1
 
-
-
             img1 = cv2.imread(files[idx_file])
-            print('image file name:',files[idx_file])
-
-            other_set = False
             output = img1.copy()
         else:
             print('The last one image')
